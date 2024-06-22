@@ -1,16 +1,17 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='mypackage',
+    name='go_game',
     version='0.1',
     packages=find_packages(),
-    author='Your Name',
-    author_email='your.email@example.com',
-    description='A sample Python package',
-    url='https://github.com/yourusername/mypackage',
+    author='JS',
+    author_email='polarbear13@naver.com',
+    description='A Python implementation of the Go board game. This project includes game logic, rules enforcement, and unit tests to ensure correctness.',
+    url='https://github.com/orca0613/go-game',
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
     ],
+    license='MIT'
 )
